@@ -1,62 +1,100 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Simple phonebook.">
-    <meta name="author" content="AonoZan">
-    <link rel="icon" href="assets/favicon.ico">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="Simple phonebook.">
+  <meta name="author" content="AonoZan">
+  <link rel="icon" href="assets/favicon.ico">
 
-    <title>Open Phonebook by AonoZan</title>
+  <title>Open Phonebook by AonoZan</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="cover.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="cover.css" rel="stylesheet">
 </head>
-  <body>
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">Add</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="add.html">Add Contact</a></li>
-                  <li><a href="search.html">Search Contact</a></li>
-                  <li><a href="list.html">List Contack</a></li>
-                </ul>
-              </nav>
+<body>
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+      <div class="cover-container">
+        <div class="masthead clearfix">
+          <div class="inner">
+            <h3 class="masthead-brand">Add</h3>
+            <nav>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="add.html">Add Contact</a></li>
+                <li><a href="search.html">Search Contact</a></li>
+                <li><a href="list.html">List Contack</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="inner cover ">
+
+          <div class="container-fluid">
+            <div class="row-fluid">
+              <div class="col-lg-8 col-lg-offset-2">
+                <form>
+                  <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Name</span>
+                    <input type="text" class="form-control" placeholder="enter contact name" aria-describedby="basic-addon1">
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">Last name</span>
+                    <input type="text" class="form-control" placeholder="enter contact last name" aria-describedby="basic-addon1">
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon3">Email</span>
+                    <input type="text" class="form-control" placeholder="enter contact email" aria-describedby="basic-addon1">
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon3">Repeat email</span>
+                    <input type="text" class="form-control" placeholder="please repeat email" aria-describedby="basic-addon1">
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon3">Phone</span>
+                    <input type="text" class="form-control" placeholder="enter contact phone number" aria-describedby="basic-addon1">
+                  </div>
+                  <br>
+                  <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon3">City</span>
+                    <input type="text" class="form-control" placeholder="enter contact city" aria-describedby="basic-addon1">
+                  </div>
+                  <br>
+                  <button type="submit" class="btn btn-default">Add contact</button>
+                </form>
+              </div>
             </div>
           </div>
-          <div class="inner cover">
-          </div>
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Based on <a href="http://getbootstrap.com/examples/cover/">Cover</a> template.</p>
-            </div>
+        </div>
+        <div class="mastfoot">
+          <div class="inner">
+            <p>Based on <a href="http://getbootstrap.com/examples/cover/">Cover</a> template.</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Bootstrap core JavaScript
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
-    <script src="js/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
+  <script src="js/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
 </html>
-

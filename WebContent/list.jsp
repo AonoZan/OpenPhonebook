@@ -9,7 +9,7 @@
 	<div class="site-wrapper">
 		<div class="site-wrapper-inner">
 			<div class="cover-container">
-				<%@ include file="header.jsp"%>
+				<%@ include file="user-header.jsp"%>
 
 				<div class="inner cover">
 					<h1>Contact list.</h1>

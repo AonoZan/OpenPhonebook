@@ -17,7 +17,7 @@
 							<div class="col-lg-8 col-lg-offset-2">
 								<h1>Login to your account.</h1>
 								<hr>
-								<form action="list.html">
+								<form action="list">
 									<div class="input-group">
 										<span class="input-group-addon" id="username">Username</span>
 										<input type="text" class="form-control"

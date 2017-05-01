@@ -4,8 +4,4 @@
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
-  <servlet>
-    <servlet-name>LoginServlet</servlet-name>
-    <servlet-class>com.webimenik.LoginServlet</servlet-class>
-</servlet>
 </web-app>

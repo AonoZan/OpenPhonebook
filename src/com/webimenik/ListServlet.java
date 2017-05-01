@@ -8,14 +8,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/login")
-public class LoginServlet extends HttpServlet {
+@WebServlet("/list")
+public class ListServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		String link = "/login.jsp";
+		String link = "/list.jsp";
 		RequestDispatcher view = request.getRequestDispatcher(link);
 		view.forward(request, response);
 

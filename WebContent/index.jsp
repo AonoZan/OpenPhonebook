@@ -14,7 +14,7 @@
 				<div class="inner cover">
 					<h1 class="cover-heading">Welcome to open phonebook.</h1>
 					<p class="lead">
-						Please <a href="login.html">login</a> or <a href="register.html">register</a>
+						Please <a href="login">login</a> or <a href="register">register</a>
 						to continue.
 					</p>
 				</div>

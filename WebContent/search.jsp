@@ -17,13 +17,15 @@
 							<div class="col-lg-8 col-lg-offset-2">
 								<h1>Search your contacts.</h1>
 								<hr>
-								<form>
+								<form method="post" action="search">
 									<div class="input-group">
 										<input type="text" class="form-control"
+											required
+											name="search"
 											placeholder="enter search term"
 											aria-describedby="search-term"> <span
 											class="input-group-btn" id="search-term">
-											<button class="btn btn-secondary" type="button">Search</button>
+											<button class="btn btn-secondary" type="submit">Search</button>
 										</span>
 									</div>
 								</form>

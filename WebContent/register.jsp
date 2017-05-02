@@ -17,37 +17,20 @@
 							<div class="col-lg-8 col-lg-offset-2">
 								<h1>Register new account.</h1>
 								<hr>
-								<form>
+								<form method="post" action="register">
 									<div class="input-group">
 										<span class="input-group-addon" id="name">Name</span> <input
 											type="text" class="form-control"
+											required
+											name="name"
 											placeholder="enter your name" aria-describedby="basic-addon1">
 									</div>
 									<br>
 									<div class="input-group">
-										<span class="input-group-addon" id="last-name">Last
-											name</span> <input type="text" class="form-control"
-											placeholder="enter your last name"
-											aria-describedby="basic-addon1">
-									</div>
-									<br>
-									<div class="input-group">
-										<span class="input-group-addon" id="email">Email</span> <input
+										<span class="input-group-addon" id="city">Password</span> <input
 											type="text" class="form-control"
-											placeholder="enter your email"
-											aria-describedby="basic-addon1">
-									</div>
-									<br>
-									<div class="input-group">
-										<span class="input-group-addon" id="email-repeat">Repeat
-											email</span> <input type="text" class="form-control"
-											placeholder="please repeat email"
-											aria-describedby="basic-addon1">
-									</div>
-									<br>
-									<div class="input-group">
-										<span class="input-group-addon" id="city">City</span> <input
-											type="text" class="form-control"
+											required
+											name="password"
 											placeholder="enter your city" aria-describedby="basic-addon1">
 									</div>
 									<br>

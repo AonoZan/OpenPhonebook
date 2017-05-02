@@ -17,10 +17,12 @@
 							<div class="col-lg-8 col-lg-offset-2">
 								<h1>Login to your account.</h1>
 								<hr>
-								<form action="list">
+								<form method="post" action="login">
 									<div class="input-group">
 										<span class="input-group-addon" id="username">Username</span>
 										<input type="text" class="form-control"
+											required
+											name="name"
 											placeholder="enter your username"
 											aria-describedby="basic-addon1">
 									</div>
@@ -28,6 +30,8 @@
 									<div class="input-group">
 										<span class="input-group-addon" id="password">Password</span>
 										<input type="password" class="form-control"
+											required
+											name="password"
 											placeholder="enter your password"
 											aria-describedby="basic-addon1">
 									</div>

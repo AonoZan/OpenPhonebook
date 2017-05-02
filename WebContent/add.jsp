@@ -17,47 +17,50 @@
 							<div class="col-lg-8 col-lg-offset-2">
 								<h1>Add new contact.</h1>
 								<hr>
-								<form>
+								<form method="post" action="add">
 									<div class="input-group">
 										<span class="input-group-addon" id="name">Name</span> <input
+											required
+											name="name"
 											type="text" class="form-control"
 											placeholder="enter contact name"
 											aria-describedby="basic-addon1">
 									</div>
 									<br>
 									<div class="input-group">
-										<span class="input-group-addon" id="last-name">Last
-											name</span> <input type="text" class="form-control"
-											placeholder="enter contact last name"
+										<span class="input-group-addon" id="phone">Phone</span> <input
+											required
+											name="phone"
+											type="tel"
+											pattern="^(\(?\d{2}\)?)([ -/])(\d{3})([ .-])(\d{3})(\d{1})*$"
+											maxlength="11"
+											class="form-control"
+											placeholder="eg. 66/555-555(5)"
 											aria-describedby="basic-addon1">
 									</div>
 									<br>
 									<div class="input-group">
 										<span class="input-group-addon" id="email">Email</span> <input
-											type="text" class="form-control"
+											name="email"
+											type="email" class="form-control"
 											placeholder="enter contact email"
 											aria-describedby="basic-addon1">
 									</div>
 									<br>
 									<div class="input-group">
-										<span class="input-group-addon" id="email-repeat">Repeat
-											email</span> <input type="text" class="form-control"
-											placeholder="please repeat email"
+										<span class="input-group-addon" id="dob">Date of birth</span> <input
+											name="dob"
+											type="date" class="form-control"
+											placeholder="enter contact date of birth"
 											aria-describedby="basic-addon1">
 									</div>
 									<br>
 									<div class="input-group">
-										<span class="input-group-addon" id="phone">Phone</span> <input
-											type="text" class="form-control"
-											placeholder="enter contact phone number"
-											aria-describedby="basic-addon1">
-									</div>
-									<br>
-									<div class="input-group">
-										<span class="input-group-addon" id="city">City</span> <input
-											type="text" class="form-control"
-											placeholder="enter contact city"
-											aria-describedby="basic-addon1">
+										<span class="input-group-addon" id="note">Note</span> <textarea
+											name="note"
+											type="textarea" class="form-control"
+											placeholder="enter notes for contact"
+											aria-describedby="basic-addon1"></textarea>
 									</div>
 									<br>
 									<button type="submit" class="btn btn-lg btn-default">Add

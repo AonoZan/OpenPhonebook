@@ -53,7 +53,7 @@ public class PropertiesLoader {
 		
 		defaults.setProperty("db_user_name", "root");
 		defaults.setProperty("db_user_pass", "pass1919");
-		defaults.setProperty("db_conn_string", "jdbc:mysql://localhost/phonebook");
+		defaults.setProperty("db_conn_string", "jdbc:mysql://localhost/phonebook?serverTimezone=UTC");
 		defaults.setProperty("db_name", "phonebook");
 		defaults.setProperty("db_user_table_name", "user");
 		defaults.setProperty("db_contact_table_name", "contact");
